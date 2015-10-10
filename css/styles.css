@@ -1,0 +1,16 @@
+#favoriteList {
+  display: none;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+h1 {
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px 0;
+  border: none;
+  background-color: #FF9300;
+}
+#favColor {
+  max-width: 15%;
+}
