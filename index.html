@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/jquery.js"></script>
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Your favorite items</h1>
+      <div class="blanks">
+        <form>
+          <div id="form-group">
+            <label for="name">Name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="favSong">Which is your favorite song?</label>
+            <input id="favSong" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="favFood">What's your favorite food?</label>
+            <input id="favFood" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="favDestination">What's your favorite destination to travel to?</label>
+            <input id="favDestination" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="favColor">What's your favorite color?</label>
+            <input id="favColor" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">List My Interests</button>
+        </form>
+      </div>
+      <div id="favoriteList">
+        <p>
+          Hi <span class="name"></span>, your favourite things are:
+        </p>
+        <ul>
+          <li>Your favorite music is <span class="favMusic"></span></li>
+          <li>Your favorite food  is <span class="favFood"></span></li>
+          <li>Your favorite destination to visit is <span class="favDestination"></span></li>
+          <li>Your favorite color is <span class="favColor"></span></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
