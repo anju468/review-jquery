@@ -7,7 +7,7 @@
 #### The programs loads to page which asks 4 questions to the user about favorite things.
 #### The submit button activates the jquery function to capture the information input by the user and display
 #### css has features to hide the output unless user inputs the data and other style features for items in html
-#### need some help with github.io page. I couldnt get that done.
+## [Git Hub Page ](https://anju468.github.io/review-jquery)
 
 ### technologies used
 #### html, css, javascript, jquery, boostrap
